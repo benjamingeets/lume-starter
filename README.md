@@ -7,5 +7,6 @@ Made for Apache servers.
 - Use PHP files to replace Edge/serverless Functions (check `/_api/`)
 - LightningCSS
 - ESbuild
-- Deploy using RSYNC
+- Optimize build using [JAMpack](https://jampack.divriots.com/)
+- Deploy using RSYNC `deno task deploy`
 - .htaccess setup (404, compress, security, ...)

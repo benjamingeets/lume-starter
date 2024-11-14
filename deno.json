@@ -5,7 +5,8 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "serve": "deno task lume -s",
+    "deploy": "deno task build && echo \"\" | deno run -A npm:@divriots/jampack _site && rsync --delete -avz _site/ SERVER:sites/example.org"
   },
   "compilerOptions": {
     "types": [
