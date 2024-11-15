@@ -1,1 +1,1 @@
-import "./_scripts/index.js"
+import "./_scripts/index.js";

@@ -11,6 +11,7 @@
     "fmt:check": "deno task dprint check",
     "dprint": "deno run -A npm:dprint"
   },
+  "nodeModulesDir": "auto",
   "compilerOptions": {
     "types": [
       "lume/types.ts"

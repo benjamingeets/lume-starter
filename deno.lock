@@ -30,6 +30,7 @@
     "jsr:@std/yaml@^1.0.5": "1.0.5",
     "npm:@divriots/jampack@*": "0.27.1_commander@12.1.0",
     "npm:@js-temporal/polyfill@0.4.4": "0.4.4",
+    "npm:dprint@*": "0.47.0",
     "npm:estree-walker@3.0.3": "3.0.3",
     "npm:lightningcss-wasm@1.28.1": "1.28.1",
     "npm:markdown-it-attrs@4.2.0": "4.2.0_markdown-it@14.1.0",
@@ -172,6 +173,27 @@
         "undici@6.19.8",
         "unpic"
       ]
+    },
+    "@dprint/darwin-arm64@0.47.0": {
+      "integrity": "sha512-UoQA2kBSSooLx+DPUeml8xr75D7wwpNmH1xmDeX9c0JzFA5j7ZtykT/gNqGSRk9TRHH12nV3/e8VSamUbnbRfA=="
+    },
+    "@dprint/darwin-x64@0.47.0": {
+      "integrity": "sha512-gL2qYooB1mSatS0CQ6/UrplyUewnWD3cg1U7S+CZAVpgSkJgOX3haWinoD66kaBdWAPJo4NjeMnlIS7WVXmbXg=="
+    },
+    "@dprint/linux-arm64-glibc@0.47.0": {
+      "integrity": "sha512-VrY41zk75f07tfD9bIiYpRom7j4jc/5a8ifWhebnA7jwitTIInkPBUAwJwygGQA/bY7uKYuoykEnipjOzXE48A=="
+    },
+    "@dprint/linux-arm64-musl@0.47.0": {
+      "integrity": "sha512-UlrOe1cD/bZmoGVdxo7wpIn6DI70SdPeeQe5LFex8csKERM1H0GmrwDTpHlvN2OzZ4W8d6j7dVQEw5K3defxSg=="
+    },
+    "@dprint/linux-x64-glibc@0.47.0": {
+      "integrity": "sha512-06j1qJtipRIds7I9f+gYAK5hNEjX3BoIT08axb9eo1VTUOUQjnJ4NwOBsT8rw8mqtTuePtWIWzZMsELom8UXZA=="
+    },
+    "@dprint/linux-x64-musl@0.47.0": {
+      "integrity": "sha512-yjT5Tua7E0aIaUvuyslfYf2h2NB6lipRFOMKySX5MHSjKHjJKdXiIddaTx9EHg6NHzyrYYH6/jD2ZqllgKjY/g=="
+    },
+    "@dprint/win32-x64@0.47.0": {
+      "integrity": "sha512-gfqV74GdQF7DWH5ClpottRS5qrEb14KncMR/bkL5ek40JqZZAeRFfYpWnuppE2rm5j9iQ+vs3Yx/YsW2u13q6Q=="
     },
     "@emnapi/runtime@1.2.0": {
       "integrity": "sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==",
@@ -754,6 +776,18 @@
       "dependencies": [
         "no-case",
         "tslib"
+      ]
+    },
+    "dprint@0.47.0": {
+      "integrity": "sha512-rcfbkLkxVusprh4DNvv8fzpnwZmAk3ttHzu6gOeZyeq8AtH86Py4sPcJ1XZKs/iD29QOUAbObR2VQm49NFAAxw==",
+      "dependencies": [
+        "@dprint/darwin-arm64",
+        "@dprint/darwin-x64",
+        "@dprint/linux-arm64-glibc",
+        "@dprint/linux-arm64-musl",
+        "@dprint/linux-x64-glibc",
+        "@dprint/linux-x64-musl",
+        "@dprint/win32-x64"
       ]
     },
     "electron-to-chromium@1.5.35": {

@@ -1,3 +1,3 @@
-import gsap from "npm:gsap"
+import gsap from "npm:gsap";
 
-console.log(gsap)
+console.log(gsap);
