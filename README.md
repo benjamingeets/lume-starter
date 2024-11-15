@@ -10,3 +10,4 @@ Made for Apache servers.
 - Optimize build using [JAMpack](https://jampack.divriots.com/)
 - Deploy using RSYNC `deno task deploy`
 - .htaccess setup (404, compress, security, ...)
+- Format using dprint `deno task fmt`
